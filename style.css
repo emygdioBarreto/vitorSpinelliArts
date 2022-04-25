@@ -23,6 +23,7 @@ body {
 /* Layout */
 .Container {
     margin: 0 auto;   
+    color: #3c5240;
 }
 
 .Flex {
@@ -45,7 +46,7 @@ body {
     color: #fff;
     font-size: 1.3em;
     font-weight: 700;
-    background-color: #c00000;
+    background-color: #3c5742;
     padding: 10px 40px;
     border: 2px solid #fff;
     border-radius: 25px;
@@ -68,6 +69,8 @@ header {
 #logo img {
     width: 128px;
     height: 128px;
+    border: 6px solid #7a4d4d;
+    border-radius: 50%;
 }
 
 #check {
@@ -110,7 +113,7 @@ nav ul li a {
 /* Destaque */
 main {
     height: 75vh;
-    background: url(img/banner.jpg);
+    background: url(img/banner2.png);
     background-size: cover;
     background-position: center;
     color: #fff;

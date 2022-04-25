@@ -132,37 +132,58 @@ main h2 {
     margin: 20px 0px 50px 0px;
 }
 
-/* Sobre */
-#sobre {
+/* Categorias */
+#categorias {
     padding: 50px 0px;
-    background: url(img/background.png);
+    background-color: #b3c7ba;
     background-size: cover;
     background-position: center;
 }
 
-#destaqueSobre {
+#destaqueCategorias {
     display: none;
 }
 
-#textoSobre {
-    color: #fff;
-    padding: 0px 10px;
+#textoCategorias {
+    color: #771919;
+    padding: 0px 210px;
 }
 
-#textoSobre h2 {
+#textoCategorias h2 {
     margin-bottom: 10px;
 }
 
-.TopicosSobre {
+.TopicosCategorias {
     margin-top: 20px;
 }
 
-.TopicosSobre img {
+.TopicosCategorias img {
     margin-right: 10px;
 }
 
+/* Contato */
+#contato {
+    padding: 50px 0px;
+    background-color: #b1aaaa;
+    background-size: cover;
+    background-position: center;
+}
+
+.textoContato {
+    color: #0e0350;
+    padding: 0px 110px;
+}
+
+.textoContato h4 {
+    margin-bottom: 10px;
+}
+
+.textoContato p {
+    margin-bottom: 60px;
+}
+
 /* One page */
-#onepage {
+/*#onepage {
     padding: 50px 10px;
 }
 
@@ -178,10 +199,10 @@ main h2 {
     width: 340px;
     height: 191px; 
     border: 0;   
-}
+}*/
 
 /* Wireframe */
-#wireframe {
+/*#wireframe {
     padding: 50px 0px;
     background: url(img/background.png);
     background-size: cover;
@@ -207,7 +228,7 @@ main h2 {
 
 #qrcode {
     display: none;
-}
+}*/
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
@@ -304,16 +325,16 @@ main h2 {
         color: #c00000;
     }
 
-    /* Sobre */
-    #sobre {
+    /* Categorias */
+    #categorias {
         background-attachment: fixed;
     }
 
-    #destaqueSobre {
+    #destaqueCategorias {
         display: inline;
     }
 
-    #destaqueSobre img {
+    #destaqueCategorias img {
         border-radius: 50%;
         margin-right: 50px;
     }
